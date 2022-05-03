@@ -130,3 +130,15 @@ header{
     float: left;
 }
 
+/* intro-plates */
+
+.plates{
+    width: 100%;
+    display: flex;
+    .plate {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        color:#fff;
+    }
+}
