@@ -1,0 +1,132 @@
+$color-bg: #082032;
+$color-header: #2C394B;
+$header-height: 95px;
+
+$input-height: 36px;
+$input-width: 450px;
+
+
+/*! Clear styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* font and general init */
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+html{
+    font-family: "Roboto-Light";
+}
+body{
+    background-color: $color-bg;
+}
+
+/*! Header */
+
+
+
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: $color-header;
+    height: $header-height;
+    width: 100%;
+    .logo{
+        img{
+            top: 0;
+            left: 45px;
+            height: $header-height;
+        }
+    } 
+    .header-currency-item{
+        float: left;
+        height: $header-height/2;
+        margin-top: $header-height/4;
+        span{
+            color: #fff;
+            display: inline-block;
+            height: $header-height/2;
+            vertical-align: middle;
+        }
+    }
+}
+
+
+/*! intro */
+
+.intro{
+    margin-top: $header-height;
+    height: 575px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/intro-bg.png");
+    padding-top: 60px;
+    h1{
+        
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+    }
+    p{
+        color: #fff;
+        width: 75%;
+        font-size: 24px;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 12.5%;
+    }
+
+}
+.header-item{
+    float: left;
+}
+
