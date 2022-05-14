@@ -1,9 +1,12 @@
 $color-bg: #082032;
 $color-header: #2C394B;
+$color-block: #334756;
 $header-height: 95px;
 
 $input-height: 36px;
 $input-width: 450px;
+
+$mobile-width: 900px;
 
 
 /*! Clear styles */
@@ -80,22 +83,66 @@ header{
     height: $header-height;
     width: 100%;
     .logo{
+        margin-left: 15px;
         img{
+            
             top: 0;
             left: 45px;
             height: $header-height;
+            @media (max-width: $mobile-width){
+                height: $header-height/2;
+
+            }
         }
     } 
-    .header-currency-item{
-        float: left;
-        height: $header-height/2;
-        margin-top: $header-height/4;
-        span{
+    .search {
+        margin-left: 50px;
+        height: $header-height/4;
+        margin-top: $header-height/3;
+        input {
+            &::placeholder {
+                color: rgb(201, 201, 201);
+            }
+            padding-left: 15px;
+            height: 100%;
+            width: 100%;
+            background-color: $color-block;
+            border: 1px solid white;
+            border-radius: 10px;
             color: #fff;
-            display: inline-block;
-            height: $header-height/2;
-            vertical-align: middle;
         }
+    }
+    
+    .header-item{
+        float: left;
+        margin-left: 30px;
+    }
+    .header_currency{
+        float: right;
+        margin-right: 10%;
+        width: 50%;
+        .header-currency-item{
+        
+            float: right;
+            margin-right: 5%;
+            height: $header-height/2;
+            margin-top: $header-height/4;
+            font-size: $header-height/5;
+            
+            span{
+                color: #fff;
+                display: inline-block;
+                height: $header-height/2;
+                vertical-align: middle;
+            }
+            @media (max-width: $mobile-width) {
+                display: none;
+            }
+        }
+    }
+    @media (max-width: $mobile-width) {
+        height: $header-height/2;
+        
     }
 }
 
@@ -126,19 +173,106 @@ header{
     }
 
 }
-.header-item{
-    float: left;
-}
 
 /* intro-plates */
-
+@keyframes anim {
+    0% {
+      opacity: 0;
+    }
+    1% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 .plates{
-    width: 100%;
-    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    display: grid;
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 600px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 800px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    @media (min-width: 1000px) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    @media (min-width: 1200px) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    
+    grid-auto-rows: minmax(200px, 200px);
+    grid-gap: 10px;
     .plate {
-        display: flex;
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
         color:#fff;
+        border-radius: 15px;
+        background-color: $color-header;
+        border: 1px solid rgba($color: #fff, $alpha: 0.5);
+        .plateintro{
+            z-index: 2;
+        }
+        &:hover{
+            > .plateintro{
+                display: none;
+            }
+            > .platedata{
+                display: block;
+                
+                animation: anim .3s ease-in-out;
+            }
+        }
+        .platedata{
+            display: none;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+            background-color: $color-header;
+            border-radius: 15px;
+            text-align: center;
+            transition: visibility 1s, opacity 1s linear;
+            .name{
+                display: inline-block;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            .dataattr{
+                display: inline-block;
+                margin-top: 5px;
+            }
+            .pricechanges{
+                display: inline-block;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            .price_change_time{
+                margin-left: 15px;
+            }
+        }
+        img {
+            margin-top: 7%;
+            width: 60%;
+            margin-left: 20%;
+        }
+        .plate-text{
+            display: block;
+            float: left;
+            text-align: center;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 20px;
+        }
     }
 }

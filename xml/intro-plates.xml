@@ -121,33 +121,35 @@
         <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
     </crypto>
     <crypto>
-        <name>Cardano</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
-        <market_cap_short>$26.6B</market_cap_short>
-        <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <name>Solana</name>
+        <short-name>SOL</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png</image>
+        <price>$48.02</price>
+        <market_cap_short>$16.2B</market_cap_short>
+        <volume_24h_short>$2.2B</volume_24h_short>
+        <price_1h_change>-1,84%</price_1h_change>
+        <price_24h_change>-4,37%</price_24h_change>
+        <price_7d_change>-41,42%</price_7d_change>
+        <price_1m_change>-54,11%</price_1m_change>
+        <highest_price>$252.62</highest_price>
+        <circulating_supply>337,32 M SOL</circulating_supply>
+        <about>Solana is the brainchild of Anatoly Yakovenko. In November 2017, Yakovenko published a white paper describing a timekeeping method for distributed systems called proof of history. He argued that one of the limitations to scalability in blockchains like Bitcoin and Ethereum was the time needed to reach a consensus on the sequence of transactions. With proof of history, you are able to create historical records that prove that an event occurs during a specific moment in time, automating the overall transaction sorting process for blockchains.
+
+            In February 2018, Yakovenko and former Qualcomm colleague Greg Fitzgerald released a prototype of the first open-source implementation of Anatoly's white paper. Soon after, they, along with fellow Qualcomm colleague Stephen Akridge and three others, co-founded Solana, a name inspired by the beach that Yakovenko, Fitzgerald, and Akridge all lived in and surfed at for a period of 3 years during their Qualcomm days.</about>
     </crypto>
     <crypto>
-        <name>Cardano</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
+        <name>Dogecoin</name>
+        <short-name>ADOGE</short-name>
+        <image>https://crypto.com/price/_next/image.png?url=https%3A%2F%2Fstatic.crypto.com%2Ftoken%2Ficons%2Fdogecoin%2Fcolor_icon.png&w=32&q=75</image>
+        <price>$0,087</price>
         <market_cap_short>$26.6B</market_cap_short>
         <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
+        <price_1h_change>-1,48%</price_1h_change>
+        <price_24h_change>-5,36%</price_24h_change>
+        <price_7d_change>-31,74%</price_7d_change>
+        <price_1m_change>-39,71%</price_1m_change>
+        <highest_price>$0.63</highest_price>
+        <circulating_supply>132,67 B DOGE</circulating_supply>
         <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
     </crypto>
     <crypto>
