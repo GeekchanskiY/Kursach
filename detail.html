@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+
+    <title>SafeCoin - index</title>
+</head>
+<body>
+    <header>
+        <div class="logo header-item">
+            <img src="img/Logo.png" alt="SafeCoinLogo">
+        </div>
+        <div class="search header-item">
+            <input type="text" placeholder="search" maxlength="30">
+        </div>
+        <div class="header_currency header-item">
+            <div class="header-currency-item">
+                <img src="img/btc_logo.png" alt="btc">
+                <span>$38,529.70</span>
+            </div>
+            <div class="header-currency-item">
+                <img src="img/eth_logo.png" alt="eth">
+                <span>$2,847.70</span>
+            </div>
+            <div class="header-currency-item">
+                <img src="img/stuff_logo.png" alt="stuff">
+                <span>$14.5</span>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="infoblock maininfoblock  container">
+            <img id="coinlogo" src="" alt="coinlogo">
+            <h1 id="coinname"></h1><small id="coinshortname"></small><button class="followbtn">Follow</button><span class="followers">127 followers</span><br><br><br>
+            <p id="coinabout"></p>
+        </div>
+        <div class="infoblock smallinfo container">
+            <h3>Price</h3><br>
+            <span>Current:</span><span id="coincurrentprice"></span><br>
+            <table>
+                <tr>
+                    <td><span class="coinpricechangelabel">1 hour</span></td>
+                    <td><span class="coinpricechangelabel">24 hours</span></td>
+                    <td><span class="coinpricechangelabel">7 days</span></td>
+                    <td><span class="coinpricechangelabel">1 month</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <br>
+            <span class="coinpricechange_percent" id="coinpricechange1h"></span><span class="coinpricechange_percent" id="coinpricechange24h"></span><span class="coinpricechange_percent" id="coinpricechange7d"></span><span class="coinpricechange_percent" id="coinpricechange1m"></span>
+        </div>
+        <div class="infoblock smallinfo container">
+            <h3>Market capitalization</h3>
+        </div>
+        <div class="infoblock smallinfo container">
+            <h3>Volume</h3>
+        </div>
+        <div class="infoblock smallinfo container">
+            <h3>Circulating supply</h3>
+        </div>
+    </article>
+
+    <footer>
+        <img src="img/Logo.png" alt="SafeCoinLogo">
+        
+        <div class="footernav">
+            <a href="index.html">Index.html</a><br><a href="list.html">List.html</a><br><a href="Detail.html">Detail</a><br><a href="AboutUs.html">AboutUs</a>
+        </div>
+
+        <p>A cryptocurrency is a digital or virtual currency that is secured 
+            by cryptography, which makes it nearly impossible to counterfeit
+            or double-spend. Many cryptocurrencies are decentralized networks
+             based on blockchain technology—a distributed ledger enforced by
+            a disparate network of computers. A defining feature of cryptocurrencies
+            is that they are generally not issued by any central authority, rendering 
+            them theoretically immune to government interference or manipulation.
+            This page is used to search and update information about them</p>
+    </footer>
+    <script src="js/deail_info.js"></script>
+</body>
+</html>
