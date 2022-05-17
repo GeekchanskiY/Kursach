@@ -36,12 +36,13 @@
     <article>
         <div class="infoblock maininfoblock  container">
             <img id="coinlogo" src="" alt="coinlogo">
-            <h1 id="coinname"></h1><small id="coinshortname"></small><button class="followbtn">Follow</button><span class="followers">127 followers</span><br><br><br>
+            <h1 id="coinname"></h1><small id="coinshortname"></small><br><br><br>
             <p id="coinabout"></p>
         </div>
         <div class="infoblock smallinfo container">
             <h3>Price</h3><br>
-            <span>Current:</span><span id="coincurrentprice"></span><br>
+            <span>Current:</span><span id="coincurrentprice"></span><br><br>
+            <span>Price changes:</span><br>
             <table>
                 <tr>
                     <td><span class="coinpricechangelabel">1 hour</span></td>
@@ -50,23 +51,49 @@
                     <td><span class="coinpricechangelabel">1 month</span></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><span class="coinpricechange_percent" id="coinpricechange1h"></span></td>
+                    <td><span class="coinpricechange_percent" id="coinpricechange24h"></span></td>
+                    <td><span class="coinpricechange_percent" id="coinpricechange7d"></span></td>
+                    <td><span class="coinpricechange_percent" id="coinpricechange1m"></span></td>
                 </tr>
             </table>
-            <br>
-            <span class="coinpricechange_percent" id="coinpricechange1h"></span><span class="coinpricechange_percent" id="coinpricechange24h"></span><span class="coinpricechange_percent" id="coinpricechange7d"></span><span class="coinpricechange_percent" id="coinpricechange1m"></span>
+            
         </div>
         <div class="infoblock smallinfo container">
             <h3>Market capitalization</h3>
+            <br>
+            <span id="mkt_cap"></span>
+            <br>
+            <br>    
+            <h4>What is crypto market capitalization?</h4>
+            <br>
+            <p class="infoblock_about">
+                Crypto market capitalization is the total value of a cryptocurrency. Where stock market capitalization is calculated by multiplying share price times shares outstanding, crypto market capitalization is calculated by multiplying the price of the cryptocurrency with the number of coins in circulation.
+            </p>
         </div>
         <div class="infoblock smallinfo container">
-            <h3>Volume</h3>
+            <h3>Volume 24h</h3>
+            <br>
+            <span id="volume"></span>
+            <br>
+            <br>    
+            <h4>What is crypto volume?</h4>
+            <br>
+            <p class="infoblock_about">
+                Crypto trading volume measures how many times a coin changes hands over a given time frame. Investors analyze crypto volume baked on either trades taking place on a given crypto exchange or on all exchanges combined.
+
+The most common timeframe for measuring volume is 24 hours, and the most common format used to show this metric is a bar chart. Typically when high volume cryptocurrency trading can mean an increase in prices and low volume cryptocurrency could indicate prices falling.
+            </p>
         </div>
         <div class="infoblock smallinfo container">
             <h3>Circulating supply</h3>
+            <br>
+            <span id="supply"></span>
+            <br>
+            <br>    
+            <h4>What is crypto Circulating supply?</h4>
+            <br>
+            <p class="infoblock_about">Circulating Supply is the total number of coins or tokens that are actively available for trade and are being used in the market and in general public.</p>
         </div>
     </article>
 

@@ -115,7 +115,7 @@ header{
         height: $header-height/4;
         margin-top: $header-height/3;
         @media (max-width: $mobile-width){
-            height: $header-height/8;
+            height: $header-height/6;
             margin-top: $header-height/6;
 
         }
@@ -398,6 +398,9 @@ header{
 footer{
     background-color: $color-header;
     height: $header-height;
+    @media (max-width: $mobile-width) {
+        margin-top: 20px;
+    }
     img{
         float: left;
         margin-left: 30px;
@@ -435,11 +438,19 @@ footer{
     box-shadow: 0 3px 10px rgba($color: #ffffff, $alpha: 0.5);
     background-color: $color-block;
     padding: 25px;
+    @media (max-width: $mobile-width) {
+        width: 95%!important;
+        margin-left: 2.5%!important;
+    }
 }
 .maininfoblock{
     
     margin-top: $header-height*2;
     margin-bottom: $header-height;
+    @media (max-width: $mobile-width) {
+        margin-top: $header-height;
+        margin-bottom: $header-height/2;
+    }
     
     
     img{
@@ -465,6 +476,13 @@ footer{
 }
 .smallinfo{
     text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    @media (max-width: $mobile-width) {
+        width: 100%;
+        margin-left: 0;
+    }
     h3{
         font-size: 30px;
     }
@@ -476,14 +494,41 @@ footer{
     }
     .coinpricechangelabel{
         font-size: 20px;
+        
         margin-left: 20px;
+        @media (max-width: $mobile-width) {
+            font-size: 16px;
+        }
     }
     .coinpricechange_percent{
         font-size: 20px;
         margin-left: 20px;
+        @media (max-width: $mobile-width) {
+            font-size: 16px;
+        }
+    }
+    table{
+        border: 4px double #fff;
+        width: 50%;
+        margin-left: 25%;
+        @media (max-width: $mobile-width) {
+            width: 100%;
+            margin-left: 0;
+        }
+        tr{
+            border-bottom: 1px solid #fff;
+            td{
+                border-right: 1px solid #fff;
+                
+            }
+        }
     }
 }
 
 /*! list.html */
-
+.list{
+    h1{
+        margin-top: $header-height+22;
+    }
+}
 /*!AboutUs.html */
