@@ -67,7 +67,7 @@ table {
     src: url("../fonts/Roboto-Light.ttf");
 }
 html{
-    font-family: "Roboto-Light";
+    font-family: 'Telex', sans-serif;
 }
 body{
     background-color: $color-bg;
@@ -79,7 +79,7 @@ body{
     color: $color-green;
 }
 
-@media (min-width: $mobile-width) {
+@media (min-width: ($mobile-width+200)) {
     .mobilebr{
         display: none;
     }
@@ -233,11 +233,14 @@ header{
     @media (min-width: 800px) {
         grid-template-columns: repeat(4, 1fr);
     }
-    @media (min-width: 1000px) {
+    @media (min-width: $mobile-width) {
         grid-template-columns: repeat(5, 1fr);
     }
     @media (min-width: 1200px) {
         grid-template-columns: repeat(6, 1fr);
+    }
+    @media (min-width: 2000px) {
+        grid-template-columns: repeat(10, 1fr);
     }
     
     
@@ -444,7 +447,7 @@ footer{
     }
 }
 .maininfoblock{
-    
+    text-align: center;
     margin-top: $header-height*2;
     margin-bottom: $header-height;
     @media (max-width: $mobile-width) {
@@ -479,6 +482,7 @@ footer{
     margin-top: 20px;
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 30px;
     @media (max-width: $mobile-width) {
         width: 100%;
         margin-left: 0;
