@@ -46,64 +46,64 @@
         <about>Binance Coin is a cryptocurrency used to pay fees on the Binance cryptocurrency exchange. Fees paid in Binance Coin on the exchange receive a discount.</about>
     </crypto>
     <crypto>
-        <name>Cardano</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
-        <market_cap_short>$26.6B</market_cap_short>
-        <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
+        <name>Litecoin</name>
+        <short-name>LTC</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/2.png</image>
+        <price>$66.74</price>
+        <market_cap_short>$4.7B</market_cap_short>
+        <volume_24h_short>$759.9M</volume_24h_short>
+        <price_1h_change>-3.14%</price_1h_change>
+        <price_24h_change>+3.67%</price_24h_change>
+        <price_7d_change>-2.29%</price_7d_change>
+        <price_1m_change>-3.31%</price_1m_change>
+        <highest_price>$294.56</highest_price>
         <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <about>Litecoin (LTC) is a cryptocurrency that was designed to provide fast, secure and low-cost payments by leveraging the unique properties of blockchain technology.</about>
     </crypto>
     <crypto>
-        <name>Cardano</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
+        <name>Uniswap</name>
+        <short-name>UNI</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png</image>
+        <price>$4.96</price>
         <market_cap_short>$26.6B</market_cap_short>
         <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
+        <price_1h_change>-10.27%</price_1h_change>
+        <price_24h_change>+3.27%</price_24h_change>
+        <price_7d_change>-30.79%</price_7d_change>
         <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <highest_price>$31.39</highest_price>
+        <circulating_supply>718M Uni</circulating_supply>
+        <about>Uniswap is a popular decentralized trading protocol, known for its role in facilitating automated trading of decentralized finance (DeFi) tokens.</about>
     </crypto>
     <crypto>
-        <name>Cardano</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
+        <name>Cronos</name>
+        <short-name>CRO</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png</image>
+        <price>$0.19</price>
         <market_cap_short>$26.6B</market_cap_short>
         <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
+        <price_1h_change>-8.64%</price_1h_change>
+        <price_24h_change>+13.67%</price_24h_change>
         <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <price_1m_change>+52.94%</price_1m_change>
+        <highest_price>$0.9698</highest_price>
+        <circulating_supply>25.26B CRO</circulating_supply>
+        <about>Cronos (CRO) is the native cryptocurrency token of Cronos Chain — a decentralized, open-source blockchain developed by the Crypto.com payment, trading and financial services company.</about>
     </crypto>
     <crypto>
-        <name>Cardano</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
-        <market_cap_short>$26.6B</market_cap_short>
-        <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
+        <name>Hedera</name>
+        <short-name>HBAR</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png</image>
+        <price>$0.10</price>
+        <market_cap_short>$2.0B</market_cap_short>
+        <volume_24h_short>$41.0M</volume_24h_short>
+        <price_1h_change>-7.21%</price_1h_change>
+        <price_24h_change>-11.67%</price_24h_change>
+        <price_7d_change>-14.79%</price_7d_change>
         <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <highest_price>$0.57</highest_price>
+        <circulating_supply>20.74B HBAR</circulating_supply>
+        <about>Hedera is the most used, sustainable, enterprise-grade public network for the decentralized economy that allows individuals and businesses to create powerful decentralized applications (DApps).</about>
     </crypto>
     <crypto>
         <name>Cardano</name>
@@ -139,7 +139,7 @@
     </crypto>
     <crypto>
         <name>Dogecoin</name>
-        <short-name>ADOGE</short-name>
+        <short-name>DOGE</short-name>
         <image>https://ru.bitcoinwiki.org/upload/ru/images/1/1d/Dogecoin-logo.jpg</image>
         <price>$0,087</price>
         <market_cap_short>$26.6B</market_cap_short>
@@ -153,48 +153,48 @@
         <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
     </crypto>
     <crypto>
-        <name>Cardanofvz</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
+        <name>FTX Token</name>
+        <short-name>FTT</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/4195.png</image>
+        <price>$29.84</price>
         <market_cap_short>$26.6B</market_cap_short>
         <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <price_1h_change>-7.21%</price_1h_change>
+        <price_24h_change>-1.87%</price_24h_change>
+        <price_7d_change>+12.79%</price_7d_change>
+        <price_1m_change>-3.94%</price_1m_change>
+        <highest_price>$85.02</highest_price>
+        <circulating_supply>136M FTT</circulating_supply>
+        <about>FTT is the native cryptocurrency token of the crypto derivatives trading platform FTX that launched on May 8, 2019.</about>
     </crypto>
     <crypto>
-        <name>Cardanoo</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
-        <market_cap_short>$26.6B</market_cap_short>
-        <volume_24h_short>$701.9M</volume_24h_short>
+        <name>Dai</name>
+        <short-name>DAI</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png</image>
+        <price>$0.99</price>
+        <market_cap_short>$6.5B</market_cap_short>
+        <volume_24h_short>$355.9M</volume_24h_short>
         <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
-        <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
-        <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <price_24h_change>+2.37%</price_24h_change>
+        <price_7d_change>-3.89%</price_7d_change>
+        <price_1m_change>+11.94%</price_1m_change>
+        <highest_price>$3.67</highest_price>
+        <circulating_supply>6.50B DAI</circulating_supply>
+        <about>DAI is an Ethereum-based stablecoin (stable-price cryptocurrency) whose issuance and development is managed by the Maker Protocol and the MakerDAO decentralized autonomous organization</about>
     </crypto>
     <crypto>
-        <name>Cardanodas</name>
-        <short-name>ADA</short-name>
-        <image>https://dynamic-assets.coinbase.com/da39dfe3632bf7a9c26b5aff94fe72bc1a70850bc488e0c4d68ab3cf87ddac277cd1561427b94acb4b3e37479a1f73f1c37ed311c11a742d6edf512672aea7bb/asset_icons/a55046bc53c5de686bf82a2d9d280b006bd8d2aa1f3bbb4eba28f0c69c7597da.png</image>
-        <price>$0.79</price>
-        <market_cap_short>$26.6B</market_cap_short>
-        <volume_24h_short>$701.9M</volume_24h_short>
-        <price_1h_change>-0.71%</price_1h_change>
-        <price_24h_change>+1.67%</price_24h_change>
+        <name>Tether</name>
+        <short-name>USDT</short-name>
+        <image>https://s2.coinmarketcap.com/static/img/coins/64x64/825.png</image>
+        <price>$0.99</price>
+        <market_cap_short>$74.1B</market_cap_short>
+        <volume_24h_short>$56.9B</volume_24h_short>
+        <price_1h_change>-0.13%</price_1h_change>
+        <price_24h_change>+2.00%</price_24h_change>
         <price_7d_change>-9.79%</price_7d_change>
-        <price_1m_change>-32.94%</price_1m_change>
+        <price_1m_change>+4.94%</price_1m_change>
         <highest_price>$3.10</highest_price>
-        <circulating_supply>33.7B ADA</circulating_supply>
-        <about>Cardano (ADA) is a blockchain platform built on a proof-of-stake consensus protocol (called Ouroboros) that validates transactions without high energy costs. Development on Cardano uses the Haskell programming language, which is described as enabling Cardano “to pursue evidence-based development for unparalleled security and stability.” The blockchain’s native token, ADA, is named after the 19th century mathematician, Ada Lovelace.</about>
+        <circulating_supply>74.21B USDT</circulating_supply>
+        <about>USDT is a stablecoin (stable-value cryptocurrency) that mirrors the price of the U.S. dollar, issued by a Hong Kong-based company Tether. The token’s peg to the USD is achieved via maintaining a sum of commercial paper, fiduciary deposits, cash, reserve repo notes, and treasury bills in reserves that is equal in USD value to the number of USDT in circulation.</about>
     </crypto>
 </cryptos>
