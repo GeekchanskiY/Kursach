@@ -13,9 +13,9 @@ $.get('https://raw.githubusercontent.com/GeekchanskiY/Kursach/master/xml/intro-p
             
             let t1, t2, t3, t4
             if (parseFloat(field.find("price_1h_change").text()) >= 0){
-              t1 = '<span class="price_change green">'+field.find("price_1h_change").text()+'</span><br class="mobilebr">'
+              t1 = '<span class="price_change green">'+field.find("price_1h_change").text()+'</span><br>'
             } else {
-              t1 = '<span class="price_change red">'+field.find("price_1h_change").text()+'</span><br class="mobilebr">'
+              t1 = '<span class="price_change red">'+field.find("price_1h_change").text()+'</span><br>'
             }
             if (parseFloat(field.find("price_24h_change").text()) >= 0){
               t2 = '<span class="price_change green">'+field.find("price_24h_change").text()+'</span>'
@@ -24,9 +24,9 @@ $.get('https://raw.githubusercontent.com/GeekchanskiY/Kursach/master/xml/intro-p
             }
             t2 += "<br>"
             if (parseFloat(field.find("price_7d_change").text()) >= 0){
-              t3= '<span class="price_change green">'+field.find("price_7d_change").text()+'</span><br class="mobilebr">'
+              t3= '<span class="price_change green">'+field.find("price_7d_change").text()+'</span><br>'
             } else {
-              t3 = '<span class="price_change red">'+field.find("price_7d_change").text()+'</span><br class="mobilebr">'
+              t3 = '<span class="price_change red">'+field.find("price_7d_change").text()+'</span><br>'
             }
             if (parseFloat(field.find("price_1m_change").text()) >= 0){
               t4 = '<span class="price_change green">'+field.find("price_1m_change").text()+'</span>'
