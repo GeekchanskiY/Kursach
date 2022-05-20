@@ -1,4 +1,21 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cryptos [
+    <!ELEMENT cryptos (crypto*)>
+    <!ELEMENT crypto (name,short-name,image,price,market_cap_short,volume_24h_short,price_1h_change,price_24h_change,price_7d_change,price_1m_change,highest_price,circulating_supply,about)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT short-name (#PCDATA)>
+    <!ELEMENT image (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT market_cap_short (#PCDATA)>
+    <!ELEMENT volume_24h_short (#PCDATA)>
+    <!ELEMENT price_1h_change (#PCDATA)>
+    <!ELEMENT price_24h_change (#PCDATA)>
+    <!ELEMENT price_7d_change (#PCDATA)>
+    <!ELEMENT price_1m_change (#PCDATA)>
+    <!ELEMENT highest_price (#PCDATA)>
+    <!ELEMENT circulating_supply (#PCDATA)>
+    <!ELEMENT about (#PCDATA)>
+]>
 <cryptos>
     <crypto>
         <name>Bitcoin</name>
